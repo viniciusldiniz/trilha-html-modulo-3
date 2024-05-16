@@ -1,0 +1,87 @@
+summary {
+    cursor: pointer;
+}
+
+details > summary::-webkit-details-marker {
+    display: none;
+    
+}
+
+details > summary::before {
+    margin-right: 5px;
+}
+
+.dropdown{
+    font-size: 10pt;
+    padding: 5px;
+}
+.submenu{
+    font-size: 9pt;
+    padding: 3px;
+}
+.submenu1{
+    font-size: 9pt;
+    padding: 3px;
+    margin: 6px;  
+}
+.menu{
+    font-size: 10pt;
+    padding: 2.5px;
+}
+
+.rectangle {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+    background: linear-gradient(to bottom, #f2f2f2, #ccc);
+    border-radius: 10px;
+    box-shadow: 5px 5px 35px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px; 
+    width: 100%;
+    
+}
+
+
+.rectangleMenor{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+    background: linear-gradient(to bottom, #f2f2f2, #ccc);
+    border-radius: 10px;
+    box-shadow: 15px 15px 55px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px; 
+    width: 100%;
+    
+    
+    
+
+}
+ 
+blockquote {
+    font-style: italic; /* Texto em itálico */
+}
+
+table {
+    width: 50%; /* Largura total da tabela */
+    text-align: center;
+}
+
+td {
+    padding: 5px; /* Espaçamento interno da célula da tabela */
+}
